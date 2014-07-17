@@ -1,0 +1,21 @@
+
+/**
+ * Coinbase logo.
+ */
+
+.logo[data-logo="Coinbase"] {
+  width: 0;
+}
+
+.logo[data-logo="Coinbase"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Coinbase"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Coinbase"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
